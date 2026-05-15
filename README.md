@@ -233,3 +233,7 @@ Organização clara do domínio
 O EAD-Notification-Hex faz parte de uma arquitetura distribuída baseada em microsserviços voltada para uma plataforma EAD.
 
 Sua responsabilidade é centralizar o processamento e gerenciamento de notificações de usuários relacionadas aos cursos da plataforma, garantindo comunicação desacoplada e processamento assíncrono eficiente.
+
+---
+![image](https://ronnieschaniel.com/wp-content/uploads/2026/02/hexagonal_architecture_in_spring_boot_projects_with_AI-1024x572.png)
+
