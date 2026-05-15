@@ -235,5 +235,25 @@ O EAD-Notification-Hex faz parte de uma arquitetura distribuída baseada em micr
 Sua responsabilidade é centralizar o processamento e gerenciamento de notificações de usuários relacionadas aos cursos da plataforma, garantindo comunicação desacoplada e processamento assíncrono eficiente.
 
 ---
+
+## Microservices da Arquitetura
+
+Para o funcionamento completo da arquitetura em ambiente local, todos os microservices do ecossistema devem estar em execução utilizando o profile ativo `dev`.
+
+Os microservices que compõem a arquitetura são:
+
+- [Authuser Microservice](https://github.com/Igorgcf/EAD-Authuser)
+- [Course Microservice](https://github.com/Igorgcf/EAD-Course)
+- [API Gateway](https://github.com/Igorgcf/EAD-API-Gateway)
+- [Service Discovery (Eureka Server)](https://github.com/Igorgcf/EAD-Service-Registry)
+- [Config Server](https://github.com/Igorgcf/EAD-Config-Server)
+- Execute [Notification Microservice](https://github.com/Igorgcf/EAD-Notification)
+  ou
+  [Notification-Hex Microservice](https://github.com/Igorgcf/EAD-Notification-Hexagonal)
+
+> ℹ️ Certifique-se de executar todos os serviços com o profile `dev` ativo para garantir a comunicação correta entre os microservices durante o desenvolvimento local.
+
+---
+
 ![image](https://ronnieschaniel.com/wp-content/uploads/2026/02/hexagonal_architecture_in_spring_boot_projects_with_AI-1024x572.png)
 
